@@ -1,0 +1,77 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fdf148;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #ffec3d;
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.hero-img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+    text-shadow: 3px 3px #000;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    background-color: #00ff99;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.section {
+    padding: 50px 20px;
+    border-bottom: 3px dashed #000;
+    max-width: 800px;
+    margin: auto;
+}
+
+ul, ol {
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
